@@ -50,8 +50,8 @@ def dls(node, destination, depth):
                 return [node] + result
     return None
 
-# Test example problem
+# Test
 start = "A"
 end = "M"
 result = dfid(start, end)
-print(result)  # Output: ['A', 'D', 'I', 'M']
+print(result)  # il doit retourner ['A', 'D', 'I', 'M']
